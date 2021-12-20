@@ -30,7 +30,7 @@ export class PhotoManagementComponent implements OnInit {
   rejectPhoto(photoId: number) {
     this.adminService.rejectPhoto(photoId).subscribe(() => {
       this.photos.splice(this.photos.findIndex(p => p.id == photoId), 1);
-      this.toastr.success('Photo has been rejected');
+      this.toastr.warning('Photo has been rejected');
     })
   }
 }

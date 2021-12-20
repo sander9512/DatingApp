@@ -19,6 +19,6 @@ input[type=file] {
 }
 .img-text {
     position: absolute;
-    bottom:40%;
-    right: 2%;
+    bottom:50%;
+    right: 3%;
 }
